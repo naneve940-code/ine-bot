@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 // 🔥 LINE token (ใส่ของคุณ)
-const LINE_TOKEN = "ใส่_CHANNEL_ACCESS_TOKEN";
+const LINE_TOKEN = "7HPS1MoE5TpJTpb+MQXwQICqoDQ/RVsx5feC72mHccxbIEryGnH7HjjwBVLS01VtV4jkaKtiftJAhsNhq6kLixWf6rqeXc2K4Wl1HfV6soSSad9UfN1YK0nwhzcolP/5oSPSYEf4lSc8hhDjBjHy7gdB04t89/1O/w1cDnyilFU=";
 
 app.get("/", (req, res) => {
   res.send("Bot is running ✔️");
